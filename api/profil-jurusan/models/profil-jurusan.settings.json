@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profil_jurusans",
+  "info": {
+    "name": "Profil Jurusan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projur_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "projur_description": {
+      "type": "text"
+    },
+    "dashboard": {
+      "via": "profil_jurusan",
+      "model": "dashboard"
+    }
+  }
+}

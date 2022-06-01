@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profil_pegawai_details",
+  "info": {
+    "name": "Profil Pegawai Detail",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pegawai_detail": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profil-pegawai.pegawai-detail"
+    }
+  }
+}

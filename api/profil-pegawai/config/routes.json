@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/profil-pegawais",
+      "handler": "profil-pegawai.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/profil-pegawais/count",
+      "handler": "profil-pegawai.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/profil-pegawais/:id",
+      "handler": "profil-pegawai.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/profil-pegawais",
+      "handler": "profil-pegawai.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/profil-pegawais/:id",
+      "handler": "profil-pegawai.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/profil-pegawais/:id",
+      "handler": "profil-pegawai.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

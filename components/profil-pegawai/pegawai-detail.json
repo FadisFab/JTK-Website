@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_profil_pegawai_pegawai_details",
+  "info": {
+    "name": "pegawai_detail",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "jenis_kelamin": {
+      "type": "string"
+    },
+    "mata_kuliah_yang_diampu": {
+      "type": "text"
+    },
+    "nidn": {
+      "type": "string"
+    },
+    "nama": {
+      "type": "string"
+    },
+    "gambar_profil_pegawai": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "tempat_tanggal_lahir": {
+      "type": "string"
+    },
+    "expertise": {
+      "type": "string"
+    },
+    "Pengalaman": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profil-pegawai.pengalaman"
+    },
+    "kbk": {
+      "type": "string"
+    },
+    "kontak": {
+      "type": "string"
+    },
+    "kewarganegaraan": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_header_logo_headers",
+  "info": {
+    "name": "logo_header",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "logo_header_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

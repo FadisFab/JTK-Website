@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_footer_component_footer_component_bodies",
+  "info": {
+    "name": "footer_component_body",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "footer_component_body_text": {
+      "type": "string"
+    },
+    "footer_component_body_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "footer_component_body_link": {
+      "type": "string"
+    }
+  }
+}

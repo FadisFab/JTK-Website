@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_navbar_dropdown_navbar_dropdrown_items",
+  "info": {
+    "name": "navbar_dropdrown_items",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "navbar_dropdown_title": {
+      "type": "string"
+    },
+    "navbar_dropdown_link": {
+      "type": "string"
+    }
+  }
+}

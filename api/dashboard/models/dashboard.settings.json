@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dashboards",
+  "info": {
+    "name": "dashboard",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dashboard_title": {
+      "type": "string"
+    },
+    "dashboard_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "profil_jurusan": {
+      "via": "dashboard",
+      "model": "profil-jurusan"
+    },
+    "dashboard_link": {
+      "type": "string"
+    }
+  }
+}

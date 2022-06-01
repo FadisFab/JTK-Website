@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_profil_pegawai_pengalamen",
+  "info": {
+    "name": "Pengalaman",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "produk_proyek": {
+      "type": "string"
+    },
+    "kegiatan": {
+      "type": "string"
+    },
+    "prestasi_penghargaan": {
+      "type": "string"
+    }
+  }
+}

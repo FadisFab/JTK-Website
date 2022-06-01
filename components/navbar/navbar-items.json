@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_navbar_navbar_items",
+  "info": {
+    "name": "navbar_items",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navbar_title": {
+      "type": "string"
+    },
+    "navbar_dropdrown_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar-dropdown.navbar-dropdrown-items"
+    },
+    "navbar_link": {
+      "type": "string"
+    }
+  }
+}

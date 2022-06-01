@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_footer_components",
+  "info": {
+    "name": "footer_component",
+    "icon": "chess-board",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "footer_component_title": {
+      "type": "string"
+    },
+    "footer_component_body": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-component.footer-component-body"
+    }
+  }
+}

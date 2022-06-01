@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profil_prodis",
+  "info": {
+    "name": "Profil Prodi"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "prodi_title": {
+      "type": "string"
+    },
+    "prodi_description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "prodi_title"
+    },
+    "prodi_detail": {
+      "via": "profil_prodi",
+      "model": "prodi-detail"
+    }
+  }
+}

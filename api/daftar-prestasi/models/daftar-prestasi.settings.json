@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "daftar_prestasis",
+  "info": {
+    "name": "Daftar Prestasi"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jenis_penghargaan": {
+      "type": "string"
+    },
+    "tingkatan": {
+      "type": "string"
+    },
+    "nama_kegiatan": {
+      "type": "string"
+    },
+    "nama_peraih": {
+      "type": "string"
+    },
+    "link_artikel": {
+      "type": "string"
+    }
+  }
+}

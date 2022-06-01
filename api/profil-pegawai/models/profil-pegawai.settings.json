@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profil_pegawais",
+  "info": {
+    "name": "Profil Pegawai"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "profil_pegawai": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profil-pegawai.profil-pegawai"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

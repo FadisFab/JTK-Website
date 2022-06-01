@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/daftar-prestasis",
+      "handler": "daftar-prestasi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daftar-prestasis/count",
+      "handler": "daftar-prestasi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/daftar-prestasis/:id",
+      "handler": "daftar-prestasi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/daftar-prestasis",
+      "handler": "daftar-prestasi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/daftar-prestasis/:id",
+      "handler": "daftar-prestasi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/daftar-prestasis/:id",
+      "handler": "daftar-prestasi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

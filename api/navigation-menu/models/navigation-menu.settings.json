@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "navigation_menus",
+  "info": {
+    "name": "navigation menu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "navbar_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.navbar-items"
+    }
+  }
+}

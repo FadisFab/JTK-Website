@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_prodi_prodi_d_3s",
+  "info": {
+    "name": "prodi-d-3",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

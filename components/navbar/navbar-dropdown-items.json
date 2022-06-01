@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_navbar_navbar_dropdown_items",
+  "info": {
+    "name": "navbar_dropdown_items",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "navbar_dropdown_title": {
+      "type": "string"
+    }
+  }
+}

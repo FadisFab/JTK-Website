@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prodi_details",
+  "info": {
+    "name": "Prodi Detail"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "prodi_detail_title": {
+      "type": "string"
+    },
+    "prodi_detail_description": {
+      "type": "text"
+    },
+    "profil_prodi": {
+      "model": "profil-prodi",
+      "via": "prodi_detail"
+    }
+  }
+}

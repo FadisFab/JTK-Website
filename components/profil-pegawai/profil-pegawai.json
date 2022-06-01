@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_profil_pegawai_profil_pegawais",
+  "info": {
+    "name": "profil_pegawai",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "jumlah": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

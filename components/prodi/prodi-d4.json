@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_prodi_prodi_d4s",
+  "info": {
+    "name": "prodi_d4",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
